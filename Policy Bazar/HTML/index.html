@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Home</title>
+
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script> 
+function toggle() {
+	var ele = document.getElementById("menu_bar");
+	if(ele.style.display == "block") {
+    	ele.style.display = "none";
+		document.getElementById("menu_toggle").innerHTML = "<a href='javascript:toggle();'><img src='creative/assets/buttons/menu_button_open.png' alt='MENU' title='MENU' width='26' height='19'></a>";
+  	}
+	else {
+		ele.style.display = "block";
+		document.getElementById("menu_toggle").innerHTML = "<a href='javascript:toggle();'><img src='creative/assets/buttons/menu_button_close.png' alt='CLOSE' title='CLOSE' width='26' height='19'></a>";		
+	}
+}
+
+
+
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="creative/css/styles.css">
+
+<!-- Start Owl Carousel Assets -->
+<link href="creative/css/owl.carousel.css" rel="stylesheet">
+<link href="creative/css/owl.theme.css" rel="stylesheet">
+<script src="creative/js/jquery-1.9.1.min.js"></script>
+<script src="creative/js/owl.carousel.js"></script>
+
+<script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+	 	
+      navigation : false,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true,
+	  
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+      });
+    });
+    </script>
+<!-- End Owl Carousel Assets -->
+    
+<!-- Start JCarousel Slider CSS/JS -->
+<link href="creative/css/jcarousel_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="creative/js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+
+$(window).load(function() {
+   
+    $("#flexiselDemo2").flexisel({
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:769,
+                visibleItems: 3
+            }
+        }
+    });
+
+});
+</script>
+<!-- End JCarousel Slider CSS/JS -->
+</head>
+<body>
+<div id="main">
+  <!-- Start Header -->
+  <header>
+    <div class="header">
+      <div class="header_inner">
+        <div class="logo"><a href="#"><!--<img src="creative/assets/logos/logo.gif" width="305" height="62">--></a></div>
+        <div class="login_area">
+          <ul>
+            <li><a href="#">Login</a></li>
+            |
+            <li><a href="#">Application</a></li>
+          </ul>
+        </div>
+        <div class="clearme"></div>
+        <!-- Start Navigation -->
+        <div id="menu_bar">
+          <nav>
+          <ul class="nav">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Insurance</a></li>
+            <!--<li class="none">|</li>-->
+            <li><a href="#">Loans & Cards</a></li>
+           <!-- <li class="none">|</li>-->
+            <li class="last"><a href="#">Learn</a></li>
+          </ul>
+          <nav>
+        </div>
+        <div class="clearme"></div>
+        <div id="menu_toggle"><a href="javascript:toggle();"><img src="creative/assets/buttons/menu_button_open.png" alt="MENU" title="MENU" width="26" height="19"></a></div>
+        <!-- Start Navigation -->
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+   <div class="clearme"></div>
+  <!-- Start Main Content -->
+  <div class="container">
+  <div class="container_inner">
+  <!-- Start Insurance Cover -->
+  <div class="insurance_cover">
+  <section>
+   <div class="insurance_box"><a href="#">Team Insurance <img src="creative/assets/icons/icon_team_insurance.png" alt="Team Insurance" title="Team Insurance"></a></div>
+   <div class="insurance_box"><a href="#">Health Insurance <img src="creative/assets/icons/icon_health_insurance.png" alt="Health Insurance" title="Health Insurance"></a></div>
+   <div class="insurance_box"><a href="#">Car Insurance <img src="creative/assets/icons/icon_car_insurance.png" alt="Car Insurance" title="Car Insurance"></a></div>
+   <div class="insurance_box"><a href="#">Investment <img src="creative/assets/icons/icon_investment.png" alt="Investment" title="Investment"></a></div>
+   <div class="insurance_box"><a href="#">Loans <img src="creative/assets/icons/icon_loans.png" alt="Loans" title="Loans"></a></div>
+   <div class="insurance_box"><a href="#">Two Wheeler <img src="creative/assets/icons/icon_two_wheeler.png" alt="Two Wheeler" title="Two Wheeler"></a></div>
+  </section>
+  <section>
+   <div class="insurance_box"><a href="#">Travel Insurance <img src="creative/assets/icons/icon_travel_insurance.png" alt="Travel Insurance" title="Travel Insurance"></a></div>
+   <div class="insurance_box"><a href="#">Critical Illness <img src="creative/assets/icons/icon_critical_illness.png" alt="Critical Illness" title="Critical Illness"></a></div>
+   <div class="insurance_box"><a href="#">Personal Accident <img src="creative/assets/icons/icon_personal_accident.png" alt="Personal Accident" title="Personal Accident"></a></div>
+   <div class="insurance_box"><a href="#">Home Insurance <img src="creative/assets/icons/icon_home_insurance.png" alt="Home Insurance" title="Home Insurance"></a></div>
+   <div class="insurance_box"><a href="#">Cards <img src="creative/assets/icons/icon_cards.png" alt="Cards" title="Cards"></a></div>
+   <div class="insurance_box"><a href="#">Home Loan <img src="creative/assets/icons/icon_home_loan.png" alt="Home Loan" title="Home Loan"></a></div>
+  </section>
+  </div>
+  <!-- End Insurance Cover -->
+  <div class="clearme"></div>
+  <!-- Start Image Slider -->
+  <section>
+ 	 <div id="owl-demo" class="owl-carousel">
+      <div class="item"><img src="creative/assets/slides/slide1.jpg" alt="Best Financial Website"></div>
+      <div class="item"><img src="creative/assets/slides/slide1.jpg" alt="Best Financial Website"></div>
+      <div class="item"><img src="creative/assets/slides/slide1.jpg" alt="Best Financial Website"></div>
+	</div>
+  </section>
+  <!-- End Image Slider -->
+  <div class="clearme"></div>
+   <!-- Start Offer Section -->
+  <section>
+  <div class="offer_cover">
+        <!--Start of Slider-->
+      <ul id="flexiselDemo2">
+          <li><img src="creative/assets/images/offer1.gif" alt="Get Best Loans & Cards Deals" title="Get Best Loans & Cards Deals"></li>
+          <li><img src="creative/assets/images/offer2.gif" alt="Cigna" title="Cigna"></li>
+          <li><img src="creative/assets/images/offer3.gif" alt="Aegon Religare" title="Aegon Religare"></li>
+          <li><img src="creative/assets/images/offer1.gif" alt="Get Best Loans & Cards Deals" title="Get Best Loans & Cards Deals"></li>
+          <li><img src="creative/assets/images/offer2.gif" alt="Cigna" title="Cigna"></li>
+	  </ul>      
+      <!--End of Slider-->
+  
+        <!--<div class="offer_box"><a href="#"><img src="creative/assets/images/offer1.gif" alt="Get Best Loans & Cards Deals" title="Get Best Loans & Cards Deals"></a></div>
+        <div class="offer_box"><a href="#"><img src="creative/assets/images/offer2.gif" alt="Cigna" title="Cigna"></a></div>
+        <div class="offer_box"><a href="#"><img src="creative/assets/images/offer3.gif" alt="Aegon Religare" title="Aegon Religare"></a></div>-->
+  </div>
+  </section>
+  <!-- End Offer Section -->
+  
+  <div class="clearme"></div>
+   
+  <section>
+  <!-- Start Chart Section -->
+  <div class="chart_cover">
+        <div class="chart_box quotes"><span class="chart_lable">6 Million</span> <span class="chart_lable2">Quotes Compare</span></div>
+        <div class="chart_box customers"><span class="chart_lable">5,77,566</span> <span class="chart_lable2">Happy Customers</span></div>
+        <div class="chart_box insurers"><span class="chart_lable">33</span> <span class="chart_lable2">Insurers</span></div>
+        <div class="chart_box plans"><span class="chart_lable">250+</span> <span class="chart_lable2">Plans</span></div>
+        <div class="chart_box compare"><span class="chart_lable">692</span> <span class="chart_lable2">Monthly Comparing</span></div>
+  </div>
+  <!-- End Chart Section -->
+   <div class="clearme"></div>
+  <!-- Start Best Place of Insurance -->
+   <div class="Best_place">
+   		<div class="Best_place_title">Why Policybazar is best place for insurance</div>
+        <!-- Start Col 1 -->
+        <div class="Best_place_col">
+        <ul>
+        <li>Unbiased comparison from top insurers</li>
+        <li>Easy to use calculators for financial planning</li>
+        <li>Big savings on insurance & investment</li>
+        </ul>
+        </div>
+        
+        <!-- Start Col 2 -->
+        <div class="Best_place_col mid">
+        <ul>
+        <li>Articles on insurance and investment</li>
+        <li>With us, the best plans are just a click away</li>
+        <li>Product reviews to help you decide</li>
+        </ul>
+        </div>
+        
+        <!-- Start Col 3 -->
+        <div class="Best_place_col">
+        <ul>
+        <li>Expert guidance for all financial queries</li>
+        <li>Expert videos for better guidance</li>
+        <li>Simplyfy insurance with Jargon dictionary</li>
+        </ul>
+        </div>
+       
+        <div class="clearme"></div> 
+   </div>  
+  <!-- End Best Place of Insurance -->
+  </section>
+   
+ <div class="clearme"></div>
+ 
+ 
+<!-- Start Footer -->
+ 	<footer>
+    <div class="footer">
+    <!-- Col 1 -->
+    <div class="footer_col1">
+    <span class="footer_heading">&nbsp;</span>
+    <span class="footer_desc">"Thank you for helping me compare and make the right decision"</span>
+    <span class="author">Ajit Jain - Channai</span>
+    </div>
+    
+    <!-- Col 2 -->
+    <div class="footer_col2">
+    	<span class="footer_heading">Hear our customers <img src="creative/assets/images/testimoniaol.gif" alt="testimoniaol" title="testimoniaol" align="absmiddle"></span>
+        <span class="footer_desc">"Policy Bazar is very much useful to convince ourselves that we are optiomising policy premium by comparison."</span>
+		<span class="author">Jagdish Shaha - Vadodara</span>
+    </div>
+    
+    </div>
+    </footer>
+<!-- End Footer -->
+ 
+  </div>  
+  </div>
+   <!-- End Main Content -->
+
+  
+</div>
+</body>
+</html>

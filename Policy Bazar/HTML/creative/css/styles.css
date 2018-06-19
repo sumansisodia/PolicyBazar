@@ -1,0 +1,552 @@
+@import url("FontFace/fontFace.css");
+body {
+	/*background: #ddffff url(../assets/backgrounds/pagebaccground.gif) repeat-x;*/
+	font-family: 'CenturyGothic';
+	font-size: 14px;
+	color: #1d7978;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+/* Links */
+a:link, a:visited {
+	color:#1d7978;
+	text-decoration:none;
+}
+a:active, a:hover {
+	color:#0b5153;
+	text-decoration:none;
+}
+/* General */
+img {
+	border:0px;
+}
+.clearme {
+	clear:both;
+	margin:0px;
+	padding:0px;
+	height:0px;
+	width:0px;
+}
+ul {
+	list-style: none;
+}
+.bolded {
+	font-weight: bold;
+}
+#main {
+	background: #ddffff url(../assets/backgrounds/pagebaccground.gif) repeat-x;
+	width: 100%;
+	height: 100%;
+}
+/* Header */
+.header {	
+	width: 100%;
+	height: 149px;
+}
+.header_inner {
+	width: 1240px;
+	margin: 0px auto;
+	padding: 0px 20px;
+}
+.logo {
+	float: left;
+	width: 305px;
+	height:62px;
+	padding: 20px 0px 0px 0px;
+}
+.login_area {
+	background: #f0f0f0;
+	float:right;	
+	margin: 22px 0px 0px 0px;
+	padding: 0px;
+	text-align:center;
+}
+.login_area ul{
+	list-style-type: none;
+	display: block;	
+	padding: 10px 15px;
+	margin:0px;
+}
+.login_area ul li {
+	display: inline-block;
+}
+.login_area ul li a {
+	font-family: 'CenturyGothic';
+	font-size: 15px;
+	color: #525252;
+	line-height: 20px;
+}
+
+/* Menu */
+#menu_bar {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align:center;
+	margin: 26px 0px 0px 0px;
+}
+ul.nav {
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}
+ul.nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+}
+ul.nav li.last {
+	padding-right: 0px;
+}
+ul.nav li a:link {
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+	line-height: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+ul.nav li a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+ul.nav li a:hover {
+	text-decoration: none;
+	color: #83a7a7;
+}
+ul.nav li a.active {
+	background:#e23234;
+	text-decoration: none;
+	color: #FFF;
+}
+#menu_toggle {
+	display:none;
+}
+
+/* Main Container */
+
+.container {	
+	width: 100%;
+}
+.container_inner {
+	width: 1240px;
+	margin: 0px auto;
+	padding: 20px;
+}
+/* Insurance */
+.insurance_cover {
+	/*-webkit-box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);	*/
+	width: 100%;
+	height: 459px;
+	/*background: #ffcc00;*/
+}
+.insurance_box {
+	display: inline-block;
+	width: 200px;
+	height: 175px;
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 20px;
+	color: #282828;
+	margin: 25px 0px;
+	text-align: center;
+}
+.insurance_box a:hover {
+	opacity: 0.8;
+
+}
+
+/* Offers */
+.offer_cover {
+	width: 100%;
+	padding: 42px 0px;
+}
+.offer_box {
+	background: #fff;
+	border-bottom: solid 12px #bbd5d6;
+	border-top: solid 12px #bbd5d6;
+	border-right: solid 10px #bbd5d6;
+	border-left: solid 10px #bbd5d6;
+	display: inline-block;
+	width: auto;
+	height: 244px;
+	margin: 0px 85px 0px 0px;
+}
+
+/* Charts */
+.chart_cover {
+	width: 100%;
+	height: 285px;
+	padding: 40px 0px;
+	position: relative;
+}
+.chart_box {
+	background: #9fe1e0;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(166,208,206,1);
+	-moz-box-shadow: 0px 0px 3px 3px rgba(166,208,206,1);
+	box-shadow: 0px 0px 3px 3px rgba(166,208,206,1);
+	border-radius: 140px;
+	display: inline-block;
+	width: 275px;
+	/*height: 256px;*/
+	height: 175px;
+	padding: 94px 0px 0px 0px;
+	text-align: center;
+}
+.chart_lable {
+	font-family: 'CenturyGothic';
+	text-transform: uppercase;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+}
+.chart_lable2 {
+	font-family: 'CenturyGothic';	
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	display: block;
+}
+.quotes {
+	background: #7cb6b7;
+	position: absolute;
+	top: 48px;
+	left: 0px;
+}
+.customers {
+	background: #91cbcc;
+	position: absolute;
+	top: 48px;
+	left: 210px;
+}
+.insurers {
+	background: #9fe1e0;
+	position: absolute;
+	top: 48px;
+	left: 460px;
+	z-index: 3;
+}
+.plans {
+	background: #91cbcc;
+	position: absolute;
+	top: 48px;
+	left: 700px;	
+	z-index: 2;
+}
+.compare {
+	background: #7cb6b7;
+	position: absolute;
+	top: 48px;
+	left: 905px;
+	z-index: 1;
+}
+
+/* Best Place */
+.Best_place {
+	width: 100%;
+	height: 237px;
+	padding: 30px 0px 20px 0px;
+	float: left;
+}
+
+.Best_place_title {
+	width: 800px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.3);	
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 32px;
+	color: #1d7978;
+	text-align: center;
+	line-height: 56px;
+}
+.Best_place_col{
+	width: 345px;
+	float: left;
+	margin: 30px 0px 0px 0px;
+}
+
+.Best_place_col ul {
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}
+
+.Best_place_col ul li {
+	background: url(../assets/backgrounds/bullet2.png) no-repeat 0px 14px;
+	list-style-type: none;
+	padding: 8px 0px 8px 16px;
+	margin:0px;
+	font-family: 'CenturyGothic';
+	font-size: 16px;
+	color:#1d7978;
+	line-height: 22px;
+}
+
+.mid {
+	padding: 0px 50px;
+}
+
+
+/* Footer */
+.footer {
+	width: 100%;
+	height: 150px;
+	margin: 25px 0px;
+	padding:0px;
+}
+.footer_col1 {
+	float: left;
+	width: 320px;
+	margin: 0px 30px 0px 0px
+}
+.footer_col2 {
+	float: left;
+	width: 430px;
+	margin: 0px 0px 0px 30px
+}
+.footer_heading {
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 28px;
+	color:#1b7978;
+	padding: 0px 0px 20px 0px;
+	display: block;
+}
+.footer_desc {
+	font-family: 'CenturyGothic';
+	font-size: 16px;
+	color:#0c4e4d;
+	line-height: 24px;
+	display: block;
+}
+.author {
+	font-family: 'CenturyGothic';
+	font-weight: bold;
+	font-size: 16px;
+	color:#09514e;
+	float:right;
+	padding: 10px 0px 0px 0px;
+}
+	
+
+/* Browser Large Width ----------- */
+@media only screen and (max-width: 960px) {
+
+#main {
+	width: 100%;
+	height: 100%;
+}
+/* Header */
+.header {	
+	width: 100%;
+}
+.header_inner {
+	width: 96%;
+	margin: 0px auto;
+	padding: 0px;
+}
+.container_inner {
+	width: 96%;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+.insurance_box {	
+	width: 150px;	
+	font-size: 15px;	
+	margin: 20px 0px;
+}
+
+/* Charts */
+/*.chart_cover {
+	width: 100%;
+	height: 285px;
+	padding: 40px 0px;
+	position: relative;
+}*/
+.chart_box {
+	width: 200px;
+	height: 105px;
+/*	padding: 94px 0px 0px 0px;
+	text-align: center;*/
+}
+.chart_lable {
+	font-family: 'CenturyGothic';
+	text-transform: uppercase;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+}
+.chart_lable2 {
+	font-family: 'CenturyGothic';	
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	display: block;
+}
+.quotes {	
+	top: 48px;
+	left: 0px;
+}
+.customers {	
+	top: 48px;
+	left: 195px;
+}
+.insurers {
+	background: #9fe1e0;
+	position: absolute;
+	top: 48px;
+	left: 430px;
+	z-index: 3;
+}
+.plans {
+	background: #91cbcc;
+	position: absolute;
+	top: 48px;
+	left: 660px;	
+	z-index: 2;
+}
+.compare {
+	background: #7cb6b7;
+	position: absolute;
+	top: 48px;
+	left: 830px;
+	z-index: 1;
+}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width: 768px) {
+
+.insurance_box {	
+	width: 118px;
+	/*height: 150px;*/
+	font-size: 15px;	
+	margin: 15px 0px;
+}
+.insurance_box img {
+	width: 100px;
+	height: 118px;
+}
+
+
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 480px) {
+
+#main {
+	background: #ddffff url(../assets/backgrounds/pagebaccground.jpg) repeat-x;
+	width: 100%;
+	height: 100%;
+}
+/* Header */
+.header {	
+	width: 100%;
+}
+.header_inner {
+	width: 96%;
+	margin: 0px auto;
+	padding: 0px;
+}
+.container_inner {
+	width: 100%;	
+}
+
+/* Menu */
+ #menu_bar {
+	 position:absolute;
+	 top:142px;
+	 right:1%;
+	 width:98%;
+	 display:none;
+	 padding: 0px;
+	 margin:0px; 
+	 height: auto;
+	 line-height: normal;
+	 z-index: 1;
+	 text-align: left;
+}
+ul.nav {
+	background: url(../assets/icons/icon_up_arrow_toggle.png) no-repeat 6% top;
+	padding: 7px 0px 0px 0px;
+}
+ul.nav li {	
+	background: #fff;
+	border-bottom: solid 1px #bdd9da;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+ul.nav li a:link {
+	font-family: 'CenturyGothic';
+	font-size: 12px;
+	color: #27282a;
+	line-height: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align:left;
+}
+ul.nav li a:visited {
+	color:#27282a;
+	text-decoration:none;
+}
+ul.nav li a:hover {
+	text-decoration: none;
+	color: #e23234;
+}
+ul.nav li a.active {
+	background: transparent;
+	text-decoration: none;
+	color: #e23234;
+}
+#menu_toggle {
+	 display:block;
+	 position:absolute;
+	 top:116px;
+	 left: 5%;
+}
+/* Insurance */
+.insurance_cover {
+	-webkit-box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.3);	
+	width: 100%;
+	height:auto;
+}
+.insurance_box {	
+	width: 150px;
+	height: 150px;
+	font-size: 15px;	
+	margin: 15px 0px;
+}
+.insurance_box img {
+	width: 100px;
+	height: 118px;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+}
